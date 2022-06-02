@@ -1,0 +1,17 @@
+{
+  "tabWidth": 2,
+  "printWidth": 80,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "semi": false,
+  "arrowParens": "always",
+  "htmlWhitespaceSensitivity": "ignore",
+  "quoteProps": "consistent",
+  "endOfLine": "auto",
+  "bracketSameLine": true,
+  "svelteStrictMode": true,
+  "svelteIndentScriptAndStyle": false,
+  "svelteAllowShorthand": true,
+  "plugins": ["./node_modules/prettier-plugin-tailwindcss"],
+  "tailwindConfig": "./tailwind.config.cjs"
+}

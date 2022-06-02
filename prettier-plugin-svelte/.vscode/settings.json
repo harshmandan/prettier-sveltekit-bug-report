@@ -1,0 +1,54 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"cSpell.words": [
+		"appengine",
+		"clsx",
+		"CONTENTFUL",
+		"deps",
+		"endindex",
+		"firebaserc",
+		"harshmandan",
+		"keepfocus",
+		"Lumi",
+		"marocchino",
+		"playbar",
+		"pnpx",
+		"preinstall",
+		"screenfull",
+		"sveltejs",
+		"tailwindcss",
+		"timecode",
+		"vite",
+		"worklight"
+	],
+	"cSpell.enableFiletypes": ["svelte"],
+	"cSpell.languageSettings": [{ "languageId": "svelte", "dictionaries": ["typescript", "html"] }],
+	"search.exclude": {
+		"**/.svelte-kit": true,
+		"**/node_modules": true,
+		"**/build": true,
+		"**/dist": true,
+		"src/packages/assets/public": true
+	},
+
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"css.customData": [".vscode/css-custom-data.json"],
+	"prettier.documentSelectors": ["**/*.svelte"],
+	"eslint.packageManager": "pnpm",
+	"eslint.validate": ["javascript", "typescript", "svelte"]
+}
